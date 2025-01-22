@@ -1,0 +1,187 @@
+body{
+    background-position-y: 100px;
+
+    justify-content: space-around;
+    /*backgraud*/
+    background-image: url('papeldeparede/papel2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    background-color: #7a1b7a;
+    
+    /*fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ícone*/
+
+link {
+   border-radius: 10px;
+}
+
+/*Semfim*/
+
+.semfim{
+    z-index: 9999;
+
+    position: fixed;
+    /*backgraud*/
+    background-attachment: fixed;
+    background-color: aliceblue;
+
+    /*borda*/
+    left: -100px ;
+    right: -100px ;
+    margin-top: -10px ;
+    border: 0;
+
+    /*hover*/
+    transition: 2s;
+}
+.semfim:hover{
+   background-color: rgba(255, 255, 255, 0.74);
+}
+#sf2{
+    background: linear-gradient(to right, white, green, white);  /* Apenas esse comando */
+    background-clip: text;  /* Aplica o gradiente ao texto */
+    color: transparent;
+}
+#sf3{
+    background: linear-gradient(to right, white, purple, white);  /* Apenas esse comando */
+    background-clip: text;  /* Aplica o gradiente ao texto */
+    color: transparent;
+}
+#sf4{
+    background: linear-gradient(to right, white, rgb(172, 59, 138), white);  /* Apenas esse comando */
+    background-clip: text;  /* Aplica o gradiente ao texto */
+    color: transparent;
+}
+#semfimsobre /*sf5*/{
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    margin-top: 30px;
+}
+
+.div1{
+    margin-left: 10% ;
+    margin-right: 10% ;
+    justify-content: space-around;
+}
+.fild1{
+    /*backgraud*/
+    background-color: aliceblue;
+
+    /*borda*/
+    border: 0;
+    border-radius: 15px;
+
+    /*animação*/
+    transition: 0.3s;
+}
+
+.fild1:hover hr{
+   border-color: rgba(0, 0, 255, 0.507);
+}
+
+.fildclientes{
+        /*backgraud*/
+        background-color: rgba(240, 248, 255, 0.274);
+
+        /*borda*/
+        border: 0;
+        border-radius: 15px;
+    
+        /*animação*/
+        transition: 0.3s;
+}
+.fildclientes:hover{
+    background-color: aliceblue;
+}
+
+.item{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7 /*e vai adicionando, #b7...#b8... etc. Além disso, é usado apenas na página inicial */{
+    height: 23px;
+    border: 0;
+    border-radius: 15px;
+    background-color: black;
+    transition: 0.5s;
+    right: 100px;
+}
+.botao1{
+    height: 23px;
+    border: 0;
+    border-radius: 15px;
+    background-color: black;
+    
+    right: 100px;
+}
+.botao1:hover{
+    font-size: medium;
+}
+#b1:hover{
+    background-color: rgb(59, 61, 172);
+}
+#b7:hover{
+    background-color: rgb(59, 172, 163);
+}
+#b2:hover{
+    background-color: rgb(59, 172, 68);
+}
+#b3:hover{
+    background-color: rgb(172, 161, 59);
+}
+#b4:hover{
+    background-color: rgb(121, 59, 172);
+}
+#b5:hover{
+    background-color: rgb(172, 59, 138);
+}
+#b6:hover{
+    background-color: rgb(255, 255, 255);
+
+    .item{
+        color: black;
+    }
+}
+
+/* Botão Voltar */
+.botaodevolatr{
+    border-radius: 15px;
+    border: 0;
+    background-color: black;
+    color: aliceblue;
+    transition: 0.5s;
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+.botaodevolatr:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+}
+/* link */
+a{
+    text-decoration: none;
+}
+
+/* analiseexel*/
+.hrseparador{
+    border: 0; /* Remove a borda padrão */
+    border-top: 1px  solid rgba(0, 255, 64, 0.349); /* Define uma nova borda superior com cor */
+}
+
+/* Restante */
+
+
